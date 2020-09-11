@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .first_screen {
     background-image: url("../images/first_fon.jpg");
     height: 100vh;
@@ -126,7 +127,6 @@ h2 {
     max-width: 270px;
     background-color: #f9f9f9;
 }
-
 
 .worker_photo .position {
     color: #d4af37;
