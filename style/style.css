@@ -45,13 +45,71 @@
     text-align: center;
     font: 80px 'Open Sans', sans-serif;
     font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
   }
 
 .first_screen .banner .banner_italic {
     font-style: italic;
 }
 
+.who_we_are {
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+    padding-top: 81px;
+    padding-bottom: 163px;
+}
+
+h3 {
+    color: #d4af37;
+    font: 13px 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #021725;
+    font: 44px 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.who_we_are .paragraph {
+    color: #021725;
+    font: 18px 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 51px;
+}
+
+.who_we_are .read_more {
+    text-decoration: none;
+    color: #021725;
+    font: 14px/57px 'Open Sans', sans-serif;
+    font-weight: 300;
+    max-width: 238px;
+    display: block;
+    margin: auto;
+    border: #021725 solid 1px;
+}
+
+.who_we_are .read_more:hover {
+    background-color: #eeeeee;
+}
+
+.what_we_do {
+    text-align: center;
+}
+
+footer {
+    background-color: #eeeeee;
+ }
+
+footer .footer {
+    max-width: 770px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font: 16px/93px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #505d68;
+}
