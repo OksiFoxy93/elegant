@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_screen {
+    background-image: url("../images/first_fon.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.first_screen .head {
+    max-width: 1185px;
+    margin: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head .nav_bar .menu {
+    text-transform: uppercase;
+    font: 16px/42px 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.head .nav_bar .icon-menu {
+    display: inline-block;
+    height: 2px;
+    width: 18px;
+    color: white;
+    margin-left: 4px;
+}
+
+.first_screen .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.first_screen .banner h1 {
+    color: white;
+    text-align: center;
+    font: 80px 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+.first_screen .banner .banner_italic {
+    font-style: italic;
+}
+
