@@ -51,10 +51,9 @@
     font-style: italic;
 }
 
-.who_we_are {
+.about {
     max-width: 770px;
     margin: auto;
-    text-align: center;
     padding-top: 81px;
     padding-bottom: 163px;
 }
@@ -65,6 +64,7 @@ h3 {
     font-weight: 600;
     margin-bottom: 8px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
@@ -72,16 +72,19 @@ h2 {
     font: 44px 'Open Sans', sans-serif;
     font-weight: 600;
     margin-bottom: 30px;
+    text-align: center;
+
 }
 
-.who_we_are .paragraph {
+.paragraph {
     color: #021725;
     font: 18px 'Open Sans', sans-serif;
     font-weight: 300;
     margin-bottom: 51px;
+    text-align: center;
 }
 
-.who_we_are .read_more {
+.about .read_more {
     text-decoration: none;
     color: #021725;
     font: 14px/57px 'Open Sans', sans-serif;
@@ -90,15 +93,67 @@ h2 {
     display: block;
     margin: auto;
     border: #021725 solid 1px;
+    text-align: center;
 }
 
-.who_we_are .read_more:hover {
+.about .read_more:hover {
     background-color: #eeeeee;
 }
 
-.what_we_do {
+.work {
     text-align: center;
 }
+
+
+
+
+
+
+
+.workers{
+    max-width: 770px;
+    margin: auto;
+}
+
+.workers .worker_photo {
+    max-width: 746px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.workers .worker_photo .worker_data {
+    max-width: 270px;
+    background-color: #f9f9f9;
+}
+
+.worker_photo .position {
+    color: #d4af37;
+    font: 13px 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.worker_photo .name {
+    color: #021725;
+    font: 21px 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.worker_photo .description {
+    color: #021725;
+    font: 13px/24px 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.worker_photo .workman {
+    padding: 15px;
+}
+
+
+
+
+
 
 footer {
     background-color: #eeeeee;
@@ -113,3 +168,4 @@ footer .footer {
     font-weight: 300;
     color: #505d68;
 }
+
