@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
+.first_screen.index {
+     background-image: url("../images/first_fon.jpg");
+     height: 100vh;
+     background-size: cover;
+ }
 
-.first_screen {
-    background-image: url("../images/first_fon.jpg");
-    height: 100vh;
-    background-size: cover;
-}
 .first_screen .head {
     max-width: 1185px;
     margin: auto;
@@ -317,4 +317,80 @@ footer .footer {
     color: #505d68;
 }
 
+/*START ABOUT*/
 
+.first_screen.about_page {
+    background-image: url("../images/about_first_screen.jpg");
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.text_about {
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+    font: 18px/30px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #021725;
+    margin-bottom: 160px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+}
+
+.services .services_page {
+    width: 50%;
+}
+
+.services .services_page img {
+    height: 100%;
+}
+
+.services .services_info {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.services .services_info .services_title {
+    color: #505d68;
+    font: 45px/45px 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding: 40px 40px 0 40px;
+}
+
+.services .services_info .services_details {
+    display: flex;
+    margin-top: 90px;
+}
+
+.services .services_info .services_text, .services .services_info .services_list {
+    width: 50%;
+    font: 18px/30px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #505d68;
+    padding-left: 55px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.services .services_info .services_list {
+    padding-right: 55px;
+}
+
+.services .services_info .services_text {
+    padding-right: 160px;
+}
+
+.services .services_info .services_list li {
+    list-style: none;
+}
+
+.services .services_info .services_list li:before {
+    content: "-";
+    margin-right: 12px;
+}
