@@ -240,7 +240,7 @@ h2 {
     margin-bottom: 60px;
 }
 
-.last_post .post_info .read_post {
+.read_post {
     text-decoration: none;
     font: 14px/14px 'Open Sans', sans-serif;
     font-weight: 300;
@@ -249,7 +249,7 @@ h2 {
     padding: 14px 47px 14px 47px;
 }
 
-.last_post .post_info .read_post:hover {
+.read_post:hover {
     background-color: #eeeeee;
 }
 
@@ -463,3 +463,98 @@ footer .footer {
 .work.show_work {
     margin-bottom: 5px;
 }
+
+/*START BLOG*/
+
+.first_screen.blog_page {
+    background-image: url("../images/blog_first_page.jpg");
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 75px;
+}
+
+.blog_all {
+    max-width: 1150px;
+    margin: auto;
+    background-color: #f9f9f9;
+    margin-bottom: 80px;
+}
+
+.blog_all .blog {
+    display: flex;
+    padding: 55px;
+    height: 100%;
+}
+
+.blog .blog_post{
+    max-width: 665px;
+    margin-right: 55px;
+}
+
+.blog .resent_post{
+    max-width: 300px;
+}
+
+.blog .blog_post .post1, .blog .blog_post .post2{
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 45px;
+
+}
+.blog .blog_post .post1 {
+    margin-bottom: 51px;
+}
+
+.blog .blog_post img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog .blog_post .post_title{
+    font: 30px/30px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.blog .blog_post .post_data {
+    font: 15px/15px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #d3b000;
+    margin-bottom: 30px;
+}
+
+.blog .blog_post .post_description {
+    font: 16px/25px 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #021725;
+    margin-bottom: 70px;
+}
+
+.blog .resent_post {
+    max-width: 300px;
+    width: 100%;
+}
+
+.resent_post .details {
+    font: 23px/23px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #021725;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #d3b000;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.resent_post .info {
+    font: 16px/25px 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #021725;
+    margin-bottom: 50px;
+}
+
+.blog_button{
+    margin-bottom: 80px;
+}
+
