@@ -101,7 +101,7 @@ h2 {
     text-align: center;
 }
 
-.about .about_us {
+.button {
     text-decoration: none;
     color: #021725;
     font: 14px/57px 'Open Sans', sans-serif;
@@ -113,7 +113,7 @@ h2 {
     text-align: center;
 }
 
-.about .about_us:hover {
+.button:hover {
     background-color: #eeeeee;
 }
 
@@ -202,6 +202,7 @@ h2 {
     justify-content: center;
     background-color: #f9f9f9;
     max-height: 390px;
+    margin-bottom: 60px;
 }
 
 .last_post .post .post_picture{
@@ -249,23 +250,6 @@ h2 {
 }
 
 .last_post .post_info .read_post:hover {
-    background-color: #eeeeee;
-}
-
-.last_post .blog {
-    text-decoration: none;
-    font: 14px/14px 'Open Sans', sans-serif;
-    font-weight: 300;
-    border: 1px solid #021725;
-    color: #021725;
-    padding: 18px 47px 18px 47px;
-    display: block;
-    margin: auto;
-    margin-top: 84px;
-    width: 237px;
-}
-
-.last_post .blog:hover {
     background-color: #eeeeee;
 }
 
@@ -395,4 +379,67 @@ footer .footer {
 .services .services_info .services_list li:before {
     content: "-";
     margin-right: 12px;
+}
+
+/*START CONTACT*/
+
+.first_screen.contact_page {
+    background-image: url("../images/contact_first_page.jpg");
+    height: 50vh;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.contact_sheet1, .contact_sheet2 {
+    display: flex;
+    width: 100%;
+}
+
+.contact.contact_details {
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+.contact .address {
+    background-color: #d3b000;
+    border-right: 6px solid white;
+}
+
+.contact_sheet1 .address .address_line:before, .contact_sheet2 .number .number_line:before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 31px;
+    background-color: white;
+    margin-bottom: 45px;
+}
+
+.contact .number {
+    background-color: #212121;
+}
+
+.contact .address, .contact .number {
+    width: 45%;
+    color: white;
+    font: 20px/35px 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.contact .contact_sheet1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact_sheet2 .description {
+    font: 20px/35px 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #323d43;
+    padding: 45px;
+    width: 60%;
+    height: 50%;
+}
+
+.button.email {
+    margin-bottom: 85px;
 }
