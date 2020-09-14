@@ -205,7 +205,7 @@ h2 {
 }
 
 .last_post .post .post_picture{
-    width: 100%;
+    width: 50%;
 }
 
 .last_post .post img {
@@ -216,6 +216,7 @@ h2 {
 .last_post .post_info {
     padding: 40px 40px  40px 40px;
     color: #505d68;
+    width: 50%;
 }
 
 .last_post .post_info .post_data {
