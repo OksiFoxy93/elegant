@@ -133,7 +133,6 @@ h2 {
 }
 .show_work .your_work img {
     width: 100%;
-    height: 100%;
 }
 
 .worker_all{
@@ -143,7 +142,7 @@ h2 {
 }
 
 .worker_all .worker {
-    max-width: 746px;
+    max-width: 770px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -156,14 +155,12 @@ h2 {
     padding-bottom: 35px;
 }
 
-.worker_all .worker .img_workman {
-    max-width: 254px;
-    max-height: 190px;
+.worker_all .worker .worker_data .img_workman {
     margin-bottom: 10px;
 }
 .worker_all .worker img {
-    height: 100%;
     width: 100%;
+    max-width: 254px;
 }
 
 .worker_all .worker .position {
@@ -189,6 +186,7 @@ h2 {
 
 .worker_all .worker .workman {
     padding: 15px;
+    max-width: 254px;
 }
 
 .last_post {
@@ -201,7 +199,7 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
-    max-height: 390px;
+    height: 390px;
     margin-bottom: 60px;
 }
 
@@ -211,7 +209,6 @@ h2 {
 
 
 .last_post .post img {
-    height: 100%;
     width: 100%;
 }
 
@@ -219,6 +216,8 @@ h2 {
     padding: 40px 40px  40px 40px;
     color: #505d68;
     width: 50%;
+    max-height: 390px;
+    overflow: auto;
 }
 
 .last_post .post_info .post_data {
@@ -325,20 +324,24 @@ footer .footer {
 .services {
     width: 100%;
     display: flex;
+    background-color: #f9f9f9;
 }
 
 .services .services_page {
     width: 50%;
+    height: 500px;
 }
 
 .services .services_page img {
-    height: 100%;
+    width: 100%;
+    height: 500px;
 }
 
 .services .services_info {
-    background-color: #f9f9f9;
-    width: 100%;
     padding-bottom: 50px;
+    width: 50%;
+    height: 500px;
+    overflow: auto;
 }
 
 .services .services_info .services_title {
@@ -385,7 +388,7 @@ footer .footer {
 
 .first_screen.contact_page {
     background-image: url("../images/contact_first_page.jpg");
-    height: 50vh;
+    height: 400px;
     background-size: cover;
     margin-bottom: 160px;
 }
@@ -419,7 +422,7 @@ footer .footer {
 }
 
 .contact .address, .contact .number {
-    width: 45%;
+    width: 40%;
     color: white;
     font: 20px/35px 'Open Sans', sans-serif;
     font-weight: 400;
@@ -428,7 +431,12 @@ footer .footer {
 
 .contact .contact_sheet1 img{
     width: 100%;
-    height: 100%;
+    height: 300px;
+}
+
+.contact .contact_sheet1 .contact_img {
+    width: 60%;
+    height: 300px;
 }
 
 .contact_sheet2 .description {
@@ -437,7 +445,6 @@ footer .footer {
     color: #323d43;
     padding: 45px;
     width: 60%;
-    height: 50%;
 }
 
 .button.email {
@@ -448,7 +455,7 @@ footer .footer {
 
 .first_screen.work_page {
     background-image: url("../images/work_first_page.jpg");
-    height: 50vh;
+    height: 400px;
     background-size: cover;
     margin-bottom: 160px;
 }
