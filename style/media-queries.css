@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .first_screen.index {
+        background-image: url("../images/first_sreen_mobile_index.jpg");
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .paragraph {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .show_work {
+        display: block;
+    }
+
+    .show_work .your_work {
+        width: 100%;
+        border: none;
+    }
+
+    .worker_all .worker {
+        display: block;
+        width: 100%;
+    }
+
+    .worker_all .worker .worker_data {
+        margin: 15px;
+    }
+
+    .worker_all .worker .worker_data, .worker_all .worker .worker_data .workman, .worker_all .worker .worker_data img {
+        max-width: 100%;
+    }
+
+    .last_post .post {
+        display: block;
+        margin: 15px;
+        height: 100%;
+    }
+
+    .last_post .post .post_picture, .last_post .post .post_info {
+        width: 100%;
+    }
+
+    .contact {
+        margin: 15px;
+    }
+
+    .contact .map{
+        max-width: 100%;
+    }
+
+    .contact .contact_info .location, .contact .contact_info .phone {
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    footer .footer {
+        display: block;
+        line-height: 35px;
+        padding: 20px 5px 20px 5px;
+    }
+}
+@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
