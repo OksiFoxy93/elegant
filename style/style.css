@@ -104,7 +104,7 @@ h2 {
 .button {
     text-decoration: none;
     color: #021725;
-    font: 14px/57px 'Open Sans', sans-serif;
+    font: 14px/55px 'Open Sans', sans-serif;
     font-weight: 300;
     width: 238px;
     padding-right: 15px;
@@ -478,7 +478,7 @@ footer .footer {
 
 .first_screen.blog_page {
     background-image: url("../images/blog_first_page.jpg");
-    height: 50vh;
+    height: 400px;
     background-size: cover;
     margin-bottom: 75px;
 }
@@ -535,7 +535,7 @@ footer .footer {
 }
 
 .blog .blog_post .post_description {
-    font: 16px/25px 'Cardo', serif;;
+    font: 16px/25px 'Cardo', serif;
     font-weight: 400;
     color: #021725;
     margin-bottom: 70px;
@@ -571,4 +571,76 @@ footer .footer {
 
 .blog_all .blog_button {
    padding-bottom: 65px;
+}
+
+/*START PROJECT*/
+
+.first_screen.project_page {
+    background-image: url("../images/project_first_page.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.project_all {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.project {
+    background-color: #f9f9f9;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    padding: 65px;
+    display: flex;
+}
+
+.project .project_info {
+    max-width: 665px;
+    width: 100%;
+    padding-right: 55px;
+}
+
+.project .project_miniature {
+    max-width: 350px;
+    width: 100%;
+}
+
+.project_info h1 {
+    font: 45px/45px 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 130px;
+    margin-top: 20px;
+}
+
+.project_info p {
+    font: 20px/30px 'Cardo', serif;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.project .project_img img {
+    max-width: 665px;
+    width: 100%;
+}
+
+.project .project_img:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.project_miniature .your_work img{
+    width: 100%;
+}
+
+.project_all .social_network {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.project_all .social_network .button {
+    border-color: #a1a1a1;
+    text-transform: uppercase;
+    color: #a1a1a1;
 }
