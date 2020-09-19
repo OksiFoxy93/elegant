@@ -261,6 +261,11 @@ h2 {
     background-color: #f9f9f9;
 }
 
+.contact .map {
+    width: 770px;
+    height: 300px;
+}
+
 .contact .contact_info {
     display: flex;
     text-align: center;
@@ -324,26 +329,23 @@ footer .footer {
 }
 
 .services {
-    width: 100%;
+    max-width: 1980px;
     display: flex;
     background-color: #f9f9f9;
+    margin: auto;
 }
 
 .services .services_page {
     width: 50%;
-    height: 500px;
 }
 
 .services .services_page img {
     width: 100%;
-    height: 500px;
 }
 
 .services .services_info {
     padding-bottom: 50px;
     width: 50%;
-    height: 500px;
-    overflow: auto;
 }
 
 .services .services_info .services_title {
@@ -360,21 +362,13 @@ footer .footer {
 }
 
 .services .services_info .services_text, .services .services_info .services_list {
-    width: 50%;
+    width: 275px;
     font: 18px/30px 'Open Sans', sans-serif;
     font-weight: 300;
     color: #505d68;
     padding-left: 55px;
     display: flex;
     align-items: flex-end;
-}
-
-.services .services_info .services_list {
-    padding-right: 55px;
-}
-
-.services .services_info .services_text {
-    padding-right: 160px;
 }
 
 .services .services_info .services_list li {
