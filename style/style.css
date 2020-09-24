@@ -329,7 +329,7 @@ footer .footer {
 }
 
 .services {
-    max-width: 1980px;
+    max-width: 1600px;
     display: flex;
     background-color: #f9f9f9;
     margin: auto;
@@ -358,17 +358,23 @@ footer .footer {
 
 .services .services_info .services_details {
     display: flex;
-    margin-top: 90px;
 }
 
 .services .services_info .services_text, .services .services_info .services_list {
-    width: 275px;
     font: 18px/30px 'Open Sans', sans-serif;
     font-weight: 300;
     color: #505d68;
-    padding-left: 55px;
-    display: flex;
     align-items: flex-end;
+}
+
+.services .services_info .services_text {
+    padding-left: 55px;
+    width: 275px;
+}
+
+.services .services_info .services_list {
+    padding-left: 100px;
+    width: 300px;
 }
 
 .services .services_info .services_list li {
@@ -538,10 +544,18 @@ footer .footer {
     width: 100%;
 }
 
+.blog .resent_post ul {
+    list-style: none;
+}
+
+.blog .resent_post a{
+    text-decoration: none;
+    color: #021725;
+}
+
 .resent_post .details {
     font: 23px/23px 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #021725;
     padding-bottom: 15px;
     border-bottom: 3px solid #d3b000;
     width: 100%;
