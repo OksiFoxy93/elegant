@@ -5,6 +5,9 @@
 
 }
 @media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 420px) {
     .first_screen.index {
         background-image: url("../images/first_sreen_mobile_index.jpg");
         height: 100vh;
@@ -31,7 +34,7 @@
     }
 
     .first_screen .banner h1 {
-        padding-top: 60%;
+        padding-top: 80%;
         font-size: 50px;
     }
 
@@ -122,8 +125,6 @@
         line-height: 35px;
         padding: 20px 5px 20px 5px;
     }
-}
-@media only screen and (max-width: 420px) {
 }
 @media only screen and (max-width: 375px) {
 
