@@ -13,41 +13,29 @@
 .first_screen .head {
     max-width: 1185px;
     margin: auto;
-    padding: 16px;
     display: flex;
     justify-content: space-between;
 }
 
+.first_screen .head .logo_background {
+    padding: 16px;
+}
+
 .first_screen .head .nav_bar{
-    margin-right: 20px;
+    padding: 16px;
 }
 
 .first_screen .head .nav_bar .menu {
     text-transform: uppercase;
-    font: 16px/42px 'Open Sans', sans-serif;
+    font: 16px/47px 'Open Sans', sans-serif;
     font-weight: 600;
     color: white;
     text-decoration: none;
 }
 
-.first_screen .head .nav_bar .icon-menu {
-    display: inline-block;
-    height: 2px;
-    width: 18px;
-    background-color: white;
-    margin-left: 4px;
-    margin-bottom: 10px;
-    position: absolute;
-}
-
-.first_screen .head .nav_bar .menu-top {
-    top: 31px;
-}
-.first_screen .head .nav_bar .menu-middle {
-    top: 35px;
-}
-.first_screen .head .nav_bar .menu-bottom {
-    top: 39px;
+.fa-bars {
+    color: white;
+    font-size: 16px;
 }
 
 .first_screen .banner {
@@ -68,11 +56,15 @@
     font-style: italic;
 }
 
+.icon-down-klik {
+    display: none;
+}
+
 .about {
     max-width: 770px;
     margin: auto;
     padding-top: 81px;
-    padding-bottom: 163px;
+    margin-bottom: 163px;
 }
 
 h3 {
@@ -86,7 +78,7 @@ h3 {
 
 h2 {
     color: #021725;
-    font: 44px 'Open Sans', sans-serif;
+    font: 44px/44px 'Open Sans', sans-serif;
     font-weight: 600;
     margin-bottom: 30px;
     text-align: center;
@@ -268,13 +260,14 @@ h2 {
 
 .contact .contact_info {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     color: #505d68;
 }
 
-.contact .contact_info .location, .contact_info .phone {
-    width: 50%;
-    padding: 50px 70px 0 70px;
+.contact .contact_info .location, .contact .contact_info .fax, .contact .contact_info .phone, .contact .contact_info .contact_email {
+    width: 380px;
+    padding: 40px 70px 40px 70px;
 }
 
 .contact .contact_info .contact_title {
@@ -288,11 +281,6 @@ h2 {
 .contact .contact_info .contact_details {
     font: 19px/35px 'Open Sans', sans-serif;
     font-weight: 300;
-    margin-bottom: 45px;
-}
-
-.contact .contact_info .contact_details.first{
-    margin-bottom: 95px;
 }
 
 footer {
@@ -316,6 +304,30 @@ footer .footer {
     height: 100vh;
     background-size: cover;
     margin-bottom: 160px;
+}
+
+.icon-down {
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-down:hover {
+    background-color: rgba(255,255,255, 0.3)
+}
+
+.icon-down a {
+    text-decoration: none;
+    }
+
+.icon-down {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    padding: 7px 7px 2px 7px;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: 85%;
+    left: 50%;
 }
 
 .text_about {
@@ -354,26 +366,27 @@ footer .footer {
     font-weight: 600;
     text-align: left;
     padding: 40px 40px 0 40px;
+    margin-bottom: 120px;
 }
 
 .services .services_info .services_details {
     display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .services .services_info .services_text, .services .services_info .services_list {
     font: 18px/30px 'Open Sans', sans-serif;
     font-weight: 300;
     color: #505d68;
-    align-items: flex-end;
+    padding-left: 15px;
 }
 
 .services .services_info .services_text {
-    padding-left: 55px;
-    width: 275px;
+    width: 220px;
 }
 
 .services .services_info .services_list {
-    padding-left: 100px;
     width: 300px;
 }
 

@@ -11,9 +11,46 @@
         background-size: cover;
     }
 
+    .first_screen .head .nav_bar .menu.name {
+        display: none;
+    }
+
+    .first_screen .head {
+        background-color: rgba(37, 48, 54, 0.3);
+        position: fixed;
+        width: 100%;
+    }
+
+    .first_screen .head .nav_bar{
+        background-color: rgba(37, 48, 54, 0.6);
+    }
+
+    .fa-bars {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .first_screen .banner h1 {
+        padding-top: 60%;
+        font-size: 50px;
+    }
+
+    .icon-down-klik {
+        display: block;
+    }
+
+    .icon-down {
+        top: 60%;
+    }
+
+    .about, .last_post, .worker_all, .show_work {
+        margin-bottom: 80px;
+    }
+
     .paragraph {
         padding-left: 10px;
         padding-right: 10px;
+        margin-bottom: 30px;
     }
 
     .show_work {
@@ -30,7 +67,7 @@
         width: 100%;
     }
 
-    .worker_all .worker .worker_data {
+    .worker_all .worker .worker_dat {
         margin: 15px;
     }
 
@@ -40,12 +77,16 @@
 
     .last_post .post {
         display: block;
-        margin: 15px;
+        margin: 15px 15px 35px 15px;
         height: 100%;
     }
 
     .last_post .post .post_picture, .last_post .post .post_info {
         width: 100%;
+    }
+
+    .last_post .post_info {
+        overflow: inherit;
     }
 
     .contact {
@@ -56,9 +97,24 @@
         max-width: 100%;
     }
 
-    .contact .contact_info .location, .contact .contact_info .phone {
-        padding: 0;
-        padding-top: 30px;
+    .contact .contact_info {
+        padding-bottom: 15px;
+    }
+
+    .contact .contact_info .contact_title {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .contact .contact_info .contact_details {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .contact .contact_info .location, .contact .contact_info .fax, .contact .contact_info .phone, .contact .contact_info .contact_email {
+        width: 170px;
+        padding: 0 15px 0 15px;
     }
 
     footer .footer {
