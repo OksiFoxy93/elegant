@@ -329,8 +329,11 @@ footer .footer {
     padding: 7px 7px 2px 7px;
     border-radius: 50%;
     border: 2px solid white;
-    top: 85%;
     left: 50%;
+}
+
+.icon-down.about {
+    top: 85%;
 }
 
 .text_about {

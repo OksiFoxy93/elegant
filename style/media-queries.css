@@ -111,7 +111,7 @@
         display: block;
     }
 
-    .icon-down {
+    .index .icon-down {
         top: 65%;
     }
 
@@ -221,14 +221,10 @@
     footer .footer {
         display: block;
         line-height: 35px;
-        padding: 5px;
+        padding: 15px;
     }
 
     /*START ABOUT*/
-
-    .icon-down.about{
-        top: 85%;
-    }
 
     .first_screen.about_page {
         background-position: center;
@@ -363,12 +359,17 @@
     }
 
     /*START PROJECT*/
+
     .first_screen.project_page {
         background-position: center;
     }
 
     .first_screen.project_page .icon-down-klik {
         display: block;
+    }
+
+    .icon-down.project-icon {
+    top: 85%;
     }
 
     .project {
@@ -393,8 +394,13 @@
         padding: 0;
     }
 
+    .project_miniature .your_work {
+        margin-bottom: 20px;
+    }
 
-
+    .project_miniature .your_work:first-child {
+        margin-top: 20px;
+    }
 
     .project_all .social_network {
         display: none;
@@ -404,7 +410,7 @@
 
 }
 @media only screen and (max-width: 360px) {
-    .icon-down {
+    .index .icon-down {
         top: 65%;
     }
 }
@@ -418,10 +424,6 @@
     .contact .contact_info .contact_details {
         font-size: 10px;
         line-height: 23px;
-    }
-
-    .icon-down {
-        top: 60%;
     }
 
     .first_screen .banner h1 {
