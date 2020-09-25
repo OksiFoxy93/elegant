@@ -52,6 +52,12 @@
         padding-right: 40px;
     }
 
+    /*START CONTACT*/
+
+    .first_screen.contact_page {
+        margin-bottom: 75px;
+    }
+
 }
 @media only screen and (max-width: 992px) {
 
@@ -259,6 +265,42 @@
     .services .services_info .services_text {
         margin-bottom: 60px;
     }
+
+    /*START CONTACT*/
+    .first_screen.contact_page {
+        background-image: none;
+        height: 160px;
+        margin-bottom: 0;
+    }
+
+    .contact_sheet1, .contact_sheet2 {
+        display: block;
+    }
+
+    .contact .address, .contact .number, .contact .contact_sheet1 .contact_img, .contact_sheet2 .description {
+        width: 100%;
+    }
+
+    .contact .contact_sheet1 img {
+        width: 100%;
+    }
+
+    .contact .address {
+        border: none;
+    }
+
+    .contact_sheet2 .description{
+        padding: 35px;
+    }
+
+    .button.email {
+        margin-bottom: 60px;
+    }
+
+    .contact.contact_details {
+        margin-bottom: 60px;
+    }
+
 }
 @media only screen and (max-width: 375px) {
 
