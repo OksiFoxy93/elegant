@@ -58,6 +58,12 @@
         margin-bottom: 75px;
     }
 
+    /*START WORK*/
+
+    .first_screen.work_page {
+        margin-bottom: 50px;
+    }
+
 }
 @media only screen and (max-width: 992px) {
 
@@ -300,6 +306,16 @@
     .contact.contact_details {
         margin-bottom: 60px;
     }
+
+    /*START WORK*/
+
+    .first_screen.work_page {
+        background-position: center;
+        margin-bottom: 60px;
+        height: 100vh;
+    }
+
+    /*START BLOG*/
 
 }
 @media only screen and (max-width: 375px) {

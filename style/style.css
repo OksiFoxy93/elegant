@@ -473,14 +473,14 @@ footer .footer {
     background-image: url("../images/work_first_page.jpg");
     height: 400px;
     background-size: cover;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
 }
 
 .paragraph_work {
     display: block;
     max-width: 770px;
     margin: auto;
-    margin-bottom: 135px;
+    margin-bottom: 120px;
 }
 
 .work.show_work {
