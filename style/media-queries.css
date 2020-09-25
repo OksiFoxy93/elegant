@@ -1,10 +1,62 @@
 @media only screen and (max-width: 1024px) {
+    .about, .last_post, .worker_all, .show_work, .contact {
+        margin-bottom: 80px;
+    }
+
+    .contact .map{
+        max-width: 100%;
+    }
+
+    .paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    /*START ABOUT*/
+
+    .icon-down.about{
+        top: 85%;
+    }
+
+    .first_screen.about_page {
+        background-position: center;
+        margin-bottom: 60px;
+    }
+
+    .text_about {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .services {
+        display: block;
+        max-width: 100%;
+    }
+
+    .services .services_page {
+        width: 100%;
+    }
+
+    .services .services_info {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .services .services_info .services_title {
+        margin-bottom: 60px;
+
+    }
+    .services .services_info .services_details {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
 }
 @media only screen and (max-width: 992px) {
 
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 }
 
@@ -37,7 +89,8 @@
     }
 
     .first_screen .banner h1 {
-        padding-top: 60%;
+        padding-right: 15px;
+        padding-left: 15px;
         font-size: 50px;
     }
 
@@ -46,7 +99,7 @@
     }
 
     .icon-down {
-        top: 60%;
+        top: 65%;
     }
 
     .about, .last_post, .worker_all, .show_work {
@@ -157,12 +210,63 @@
         line-height: 35px;
         padding: 5px;
     }
+
+    /*START ABOUT*/
+
+    .icon-down.about{
+        top: 85%;
+    }
+
+    .first_screen.about_page {
+        background-position: center;
+        margin-bottom: 60px;
+    }
+
+    .text_about {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .services {
+        display: block;
+        max-width: 100%;
+    }
+
+    .services .services_page {
+        width: 100%;
+    }
+
+    .services .services_info {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .services .services_info .services_title {
+        margin-bottom: 60px;
+    }
+    .services .services_info .services_details {
+        display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .services .services_info .services_text, .services .services_info .services_list {
+        padding: 0;
+        width: 100%;
+    }
+
+    .services .services_info .services_text {
+        margin-bottom: 60px;
+    }
 }
 @media only screen and (max-width: 375px) {
 
 }
 @media only screen and (max-width: 360px) {
-
+    .icon-down {
+        top: 65%;
+    }
 }
 @media only screen and (max-width: 320px) {
     .contact .contact_info .contact_title {
@@ -177,7 +281,14 @@
     }
 
     .icon-down {
-        top: 70%;
+        top: 60%;
+    }
+
+    .first_screen .banner h1 {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 40px;
+        line-height: 60px;
     }
 
 }
