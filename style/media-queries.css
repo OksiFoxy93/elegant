@@ -5,10 +5,9 @@
 
 }
 @media only screen and (max-width: 767px) {
-    .first_screen .banner h1 {
-        padding-top: 50%;
-    }
+
 }
+
 @media only screen and (max-width: 420px) {
     .first_screen.index {
         background-image: url("../images/first_sreen_mobile_index.jpg");
@@ -38,7 +37,7 @@
     }
 
     .first_screen .banner h1 {
-        padding-top: 80%;
+        padding-top: 60%;
         font-size: 50px;
     }
 
@@ -55,9 +54,14 @@
     }
 
     .paragraph {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-bottom: 30px;
+    }
+
+    h2 {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .show_work {
@@ -74,12 +78,21 @@
         width: 100%;
     }
 
-    .worker_all .worker .worker_dat {
+    .worker_all .worker .worker_data {
         margin: 15px;
+        padding-bottom: 15px;
     }
 
     .worker_all .worker .worker_data, .worker_all .worker .worker_data .workman, .worker_all .worker .worker_data img {
         max-width: 100%;
+    }
+
+    .worker_all .worker .position {
+        margin-bottom: 8px;
+    }
+
+    .worker_all .worker .name {
+        margin-bottom: 15px;
     }
 
     .last_post .post {
@@ -90,6 +103,22 @@
 
     .last_post .post .post_picture, .last_post .post .post_info {
         width: 100%;
+    }
+
+    .last_post .post .post_info {
+        padding: 20px 15px 30px 15px;
+    }
+
+    .last_post .post_info .post_data{
+        margin-bottom: 10px;
+    }
+
+    .last_post .post_info .post_title{
+        margin-bottom: 20px;
+    }
+
+    .last_post .post_info .post_description{
+        margin-bottom: 45px;
     }
 
     .last_post .post_info {
@@ -109,7 +138,7 @@
     }
 
     .contact .contact_info .contact_title {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         margin-top: 15px;
         font-size: 10px;
     }
@@ -120,14 +149,13 @@
     }
 
     .contact .contact_info .location, .contact .contact_info .fax, .contact .contact_info .phone, .contact .contact_info .contact_email {
-        width: 170px;
         padding: 0 15px 0 15px;
     }
 
     footer .footer {
         display: block;
         line-height: 35px;
-        padding: 20px 5px 20px 5px;
+        padding: 5px;
     }
 }
 @media only screen and (max-width: 375px) {

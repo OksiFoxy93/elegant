@@ -261,19 +261,24 @@ h2 {
 .contact .contact_info {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     color: #505d68;
+    text-align: center;
 }
 
+.contact .contact_info .location_fax, .contact .contact_info .phone_email{
+    width: 50%;
+}
+
+
 .contact .contact_info .location, .contact .contact_info .fax, .contact .contact_info .phone, .contact .contact_info .contact_email {
-    width: 380px;
     padding: 40px 70px 40px 70px;
 }
+
 
 .contact .contact_info .contact_title {
     font: 13px/13px 'Open Sans', sans-serif;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     text-transform: uppercase;
 }
 
