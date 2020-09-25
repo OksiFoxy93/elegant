@@ -165,5 +165,19 @@
 
 }
 @media only screen and (max-width: 320px) {
+    .contact .contact_info .contact_title {
+        margin-bottom: 5px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .contact .contact_info .contact_details {
+        font-size: 10px;
+        line-height: 23px;
+    }
+
+    .icon-down {
+        top: 70%;
+    }
 
 }
