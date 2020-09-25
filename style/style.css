@@ -600,6 +600,10 @@ footer .footer {
     background-size: cover;
 }
 
+.first_screen.project_page .icon-down-klik {
+    display: none;
+}
+
 .project_all {
     max-width: 1150px;
     margin: auto;
