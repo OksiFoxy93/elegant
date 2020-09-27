@@ -668,6 +668,7 @@ footer .footer {
     height: 6px;
     width: 6px;
     margin: 4px;
+    outline: none;
 }
 
 .owl-dots .owl-dot.active {
@@ -675,9 +676,6 @@ footer .footer {
     width: 10px;
 }
 
-.owl-dots .owl-dot.active:active {
-    border: none!important;
-}
 
 .project .project_img:not(:last-of-type) {
     margin-bottom: 20px;
