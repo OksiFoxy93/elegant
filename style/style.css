@@ -658,6 +658,8 @@ footer .footer {
     position: absolute;
     left: 50%;
     bottom: 10%;
+    display: flex;
+    align-items: center;
 }
 
 .owl-dots .owl-dot{
