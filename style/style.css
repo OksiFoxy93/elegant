@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Medium.eot');
+    src: url('../fonts/Now-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Medium.woff2') format('woff2'),
+    url('../fonts/Now-Medium.woff') format('woff'),
+    url('../fonts/Now-Medium.ttf') format('truetype'),
+    url('../fonts/Now-Medium.svg#Now-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 .first_screen.index {
      background-image: url("../images/first_fon.jpg");
      height: 100vh;
@@ -695,4 +721,124 @@ footer .footer {
     border-color: #a1a1a1;
     text-transform: uppercase;
     color: #a1a1a1;
+}
+
+/*DIALOG*/
+
+.ui-dialog {
+    width: 680px!important;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    outline: none;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+
+.ui-widget.ui-widget-content {
+    /*border: none; - рамочка вокруг диалогового окна*/
+    position: relative;
+
+}
+
+.ui-widget-header {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font: 18px/60px 'Now', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-title {
+    width: 100%;
+}
+
+.ui-dialog-titlebar {
+    margin-bottom: 30px;
+}
+
+.ui-button {
+    display: none;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0;
+}
+
+.dialog_email_form {
+    max-width: 490px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.dialog_email_form .dialog_email {
+    font: 18px/50px 'Now', sans-serif;
+    font-weight: normal;
+    width: 340px;
+    padding-left: 10px;
+    border: 1px solid #b7b7b7;
+
+}
+
+.dialog_email_form .dialog_label_email {
+    display: inline-block;
+    font: 18px/20px 'Now', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.dialog_button_form {
+    max-width: 460px;
+    margin: auto;
+}
+
+.button_submit, .button_facebook {
+    width: 100%;
+}
+
+.dialog_button_form .button_submit {
+    background: linear-gradient(to right, #d7d7d7, #b7b7b7);
+    color: black;
+    text-transform: uppercase;
+    font: 18px/50px 'Now', sans-serif;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.dialog_button_form p {
+    color: black;
+    text-transform: uppercase;
+    font: 16px/18px 'Now', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dialog_button_form .button_facebook  {
+    text-decoration: none;
+    background: linear-gradient(to right, #567cce, #4865a3);
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font: 18px/50px 'Now', sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+    padding-top: 5px;
+}
+
+.dialog_button_form .button_facebook:before {
+    display: inline-block;
+    content: "\f39e";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    color: white;
+    width: 23px;
+    margin-right: 4px;
 }

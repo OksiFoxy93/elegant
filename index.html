@@ -6,11 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elegant</title>
-    <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media-queries.css">
 </head>
 <body>
+
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <form>
+        <div class="dialog_email_form">
+            <label class="dialog_label_email">ENTER YOUR<br> EMAIL </label>
+            <input type="email" class="dialog_email">
+
+        </div>
+
+        <div class="dialog_button_form">
+            <button type="submit" class="button_submit">RESET PASSWORD</button>
+            <p>or</p>
+            <a href="#" class="button_facebook">Log In Using Facebook</a>
+        </div>
+    </form>
+</div>
+
     <section class="first_screen index">
         <header class="head">
             <div class="logo_background">
@@ -38,7 +57,7 @@
         <h2>Tell The World About Yourself</h2>
         <p class="paragraph">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.
         </p>
-        <a href="about.html" class="button">Read More About Us</a>
+        <a id="opener" class="button">Read More About Us</a>
     </section>
 
     <section class="work">
@@ -170,5 +189,9 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/fc70117f52.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

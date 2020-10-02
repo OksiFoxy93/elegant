@@ -73,7 +73,7 @@
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 767px) {
     .first_screen.index {
         background-image: url("../images/first_sreen_mobile_index.jpg");
         height: 100vh;
@@ -330,7 +330,7 @@
     }
 
     .blog .blog_post .post1, .blog .blog_post .post2 {
-        padding: 45px;
+        padding: 30px 15px 45px 15px;
     }
 
     .blog .blog_post .post1 {
@@ -351,7 +351,7 @@
 
     .blog .resent_post {
         max-width: none;
-        padding: 70px 45px 25px 45px;
+        padding: 50px 15px 25px 15px;
     }
 
     .blog_all .blog_button {
@@ -374,7 +374,7 @@
 
     .project {
         display: block;
-        margin: 60px 20px 20px 20px;
+        margin: 60px 0 20px 0;
         padding: 15px;
     }
 
