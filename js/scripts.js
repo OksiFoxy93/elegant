@@ -1,5 +1,9 @@
-$( function() {
-    $( "#dialog" ).dialog({
+$(function () {
+    var dialog = $("#dialog");
+    if (dialog.length == 0) {
+        return;
+    }
+    dialog.dialog({
         autoOpen: false,
         show: {
             effect: "blind",
@@ -12,10 +16,10 @@ $( function() {
         resizable: false,
     });
 
-    $( "#opener" ).on( "click", function() {
-        $( "#dialog" ).dialog( "open" );
+    $("#opener").on("click", function () {
+        $("#dialog").dialog("open");
     });
-} );
+});
 
 var menuBtn = document.querySelector('.menu-btn');
 var nav = document.querySelector('nav');
@@ -31,22 +35,27 @@ menuBtn.addEventListener('click', () => {
     link.classList.toggle('fade-in');
 })
 
-$(document).ready(function(){
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        navText: [ '', ' ' ],
+$(document).ready(function () {
+    var owlCarousel = $('.owl-carousel');
+    if (owlCarousel.length == 0) {
+        return;
+    }
+    owlCarousel.owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        navText: ['', ' '],
 
-        responsive:{
-            0:{
-                items:1
+        responsive: {
+            0: {
+                items: 1
             },
 
-            1000:{
-                items:1
+            1000: {
+                items: 1
             }
         }
     });
+
 });

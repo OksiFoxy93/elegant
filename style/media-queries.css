@@ -12,6 +12,7 @@
         padding-right: 20px;
         margin-bottom: 30px;
     }
+
     /*START ABOUT*/
 
     .icon-down.about{
@@ -78,27 +79,57 @@
         background-image: url("../images/first_sreen_mobile_index.jpg");
         height: 100vh;
         background-size: cover;
+        background-position: center;
     }
 
-    .first_screen .head .nav_bar .menu.name {
+    .first_screen .head .nav_bar .menu{
         display: none;
     }
 
-    .first_screen .head {
+    .first_screen .head .logo_background .logo {
+        margin: 0;
+    }
+
+    nav {
+        transform: none;
+        position: fixed;
+        width: 100%;
+    }
+
+    .first_screen.contact_page nav, .first_screen.blog_page nav, .first_screen.work_page nav {
+        height: 100vh;
+    }
+
+    nav.nav-open {
+        transform: none;
+        position: fixed;
+    }
+
+    nav.nav-open .menu-btn {
+        background: none;
+    }
+
+    nav .menu-btn {
+        background-color: rgba(37, 48, 54, 0.6);
+        top: 0;
+        right: 0;
+        padding: 25px 35px 25px 35px;
+    }
+
+    nav .menu-btn .line {
+        position: relative;
+        right: 12px;
+    }
+
+    .first_screen .logo_background {
         background-color: rgba(37, 48, 54, 0.3);
         position: fixed;
         width: 100%;
     }
 
-    .first_screen .head .nav_bar{
-        background-color: rgba(37, 48, 54, 0.6);
-    }
-
-    .fa-bars {
-        font-size: 24px;
-        line-height: 24px;
-        padding-left: 5px;
-        padding-right: 5px;
+    .first_screen .banner {
+        top: 36%;
+        bottom: 0;
     }
 
     .first_screen .banner h1 {
@@ -109,10 +140,17 @@
 
     .icon-down-klik {
         display: block;
+        position: relative;
+        padding-bottom: 450px;
     }
 
-    .index .icon-down {
-        top: 65%;
+    @keyframes icon-down-klik{
+        0%  { bottom: 0; }
+        100% { bottom: 50px; }
+    }
+
+    .icon-down-klik {
+        animation: icon-down-klik 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
     }
 
     .about, .last_post, .worker_all, .show_work {
