@@ -36,7 +36,7 @@
 nav {
     overflow: hidden;
     right: 0;
-    z-index: 0;
+    z-index: 2;
     transform: translateX(0px);
     height: 100vh;
     width: 400px;
@@ -159,14 +159,14 @@ nav .nav-links .link:hover {
     text-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
-a{
+nav a{
     margin: 0 20px;
     color: #fff;
     font-size: 2rem;
     transition: all 400ms ease;
 }
 
-a:hover{
+nav a:hover{
     color: #222;
 }
 

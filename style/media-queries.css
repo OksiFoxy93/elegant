@@ -94,8 +94,6 @@
     }
 
     .dialog_button_form a.button_facebook {
-        margin-left: 0;
-        margin-right: 0;
         margin-bottom: 50px;
     }
 
@@ -111,23 +109,23 @@
         display: none;
     }
 
-    .first_screen .head .logo_background .logo {
-        margin: 0;
-    }
-
     nav {
         transform: none;
         position: fixed;
-        width: 100%;
+        width: 100px;
+        height: 100px;
     }
 
-    .first_screen.contact_page nav, .first_screen.blog_page nav, .first_screen.work_page nav {
+    .first_screen.contact_page nav.nav-open, .first_screen.blog_page nav.nav-open, .first_screen.work_page nav.nav-open {
         height: 100vh;
+        width: 100%;
     }
 
     nav.nav-open {
         transform: none;
         position: fixed;
+        height: 100vh;
+        width: 100%;
     }
 
     nav.nav-open .menu-btn {
@@ -138,7 +136,7 @@
         background-color: rgba(37, 48, 54, 0.6);
         top: 0;
         right: 0;
-        padding: 25px 35px 25px 35px;
+        padding: 23px 35px 23px 35px;
     }
 
     nav .menu-btn .line {
@@ -150,6 +148,7 @@
         background-color: rgba(37, 48, 54, 0.3);
         position: fixed;
         width: 100%;
+        z-index: 2;
     }
 
     .first_screen .banner {
