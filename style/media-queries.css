@@ -434,6 +434,10 @@
     top: 85%;
     }
 
+    .owl-dots {
+        left: 45%;
+    }
+
     .project {
         display: block;
         margin: 60px 0 20px 0;
