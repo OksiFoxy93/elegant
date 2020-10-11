@@ -75,6 +75,31 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .ui-dialog{
+        width: 350px!important;
+        margin: auto;
+    }
+
+    .dialog_email_form {
+        max-width: 320px;
+        font-size: 10px;
+    }
+
+    .dialog_email_form .dialog_email {
+        width: 300px;
+    }
+
+    .dialog_button_form {
+        max-width: 320px;
+    }
+
+    .dialog_button_form a.button_facebook {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+
     .first_screen.index {
         background-image: url("../images/first_sreen_mobile_index.jpg");
         height: 100vh;
@@ -469,6 +494,23 @@
         padding-left: 15px;
         font-size: 40px;
         line-height: 60px;
+    }
+
+    .ui-dialog{
+        width: 310px!important;
+        margin: auto;
+    }
+
+    .dialog_email_form {
+        max-width: 270px;
+    }
+
+    .dialog_email_form .dialog_email {
+        width: 200px;
+    }
+
+    .dialog_button_form {
+        max-width: 290px;
     }
 
 }
